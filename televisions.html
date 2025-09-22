@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Television Data Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="logo-link">
+                    <img src="images/PowerIcon.png" alt="Company Logo" class="logo-icon">
+                </a>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="televisions.html" class="nav-link active">Television</a></li>
+                <li><a href="aboutus.html" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <seciton id="Introduction" class="introductiondisplay">
+        <div class="introduction-content">
+            <div class="introduction-adjustment">
+            <h3>Introduction:</h3>
+            <p>Analyse the television energy consumption dataset provided by the Australian Government to generate business insight for Australian consumers to make better decisions about purchasing televisions.</p>
+            </div>
+        </div>
+    </seciton>
+
+
+    <!-- Chart Display Content Section -->
+    <section id="Q1_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q1: What type of TV screen technologies are currently available in Australia and which are the most frequent?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q1_Pie_Chart.png" alt="Q1 Chart">
+        </div>
+        <p><strong>Ans:</strong> LCD (LED) has the highest availabilities while OLED has the lowest availabilities in Australia. This indicate that the Australian prefers LCD Televisions over OLED Televisions as it is affordable</p>
+    </section>
+
+    <section id="Q2_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q2: What screen sizes are available and which are most frequent?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q2_Bar_Chart.png" alt="Q2 Chart">
+        </div>
+        <p><strong>Ans:</strong> The highest number of television with 65 inches television has highest demand in Australia's market compared to other screen size.</p>
+    </section>
+
+    <section id="Q3_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q3: Which brands have the greatest number of different models?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q3_Bar_Chart.png" alt="Q3 Chart">
+        </div>
+        <p><strong>Ans:</strong> The top 3 brands, such as SAMSUNG ELECTRONICS, LG, and Kogan has the highest number of different models compared to others.This indicates that SAMSUNG ELECTRONICS, LG, and Kogan manufactured different models of televisions with different features and prices for Australians to help them have different options to buy.</p>
+    </section>
+
+    <section id="Q4_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q4: Which type of screen technology consumes the least amount of power?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q4_Bar_Chart.png" alt="Q4 Chart">
+        </div>
+        <p><strong>Ans:</strong> LCD consumes less power while OLED consumes more power. This indicates that LCD televisions are more energy efficient compared to LCD (LED) and OLED televisions</p>
+    </section>
+
+    <section id="Q5_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q5: What is the relationship between screen size and power use?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q5_Scatter_Plot.png" alt="Q5 Chart">
+        </div>
+        <p><strong>Ans:</strong> Most of the largest screen size from 160 cm to 247 cm has the highest power consumption as compared to medium to small screen size. This indicates that the larger the screen of television consume more electricity, hence not very energy efficient</p>
+    </section>
+
+    <section id="Q6_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q6: What is the relationship between star rating and screen size?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q6_Scatter_Plot.png" alt="Q6 Chart">
+        </div>
+        <p><strong>Ans:</strong> The screen size and star rating has very week positive relationship. Because the larger screen of television has a slightly higher star ratings and more lowest star ratings.</p>
+    </section>
+
+    <section id="Q7_Chart" class="chartdisplay">
+        <div class="chart-question">
+            <h3>Q7: Are there differences in power consumption between brands?</h3>      
+        </div>
+        <div class="chart-placeholder">
+            <img src="/images/Q7_Bar_Chart.png" alt="Q7 Chart">
+        </div>
+        <p><strong>Ans:</strong> Yes, there are huge differences in power consumption between brands ranging from 14W (ARK) to 200W (DEVANTI). This indicates that, when choosing a brand, it is important for consumers to understand certain brands television that doesn't prioritising energy efficiency, for example, DEVANTI, EMETE, Skyworth, etc.</p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-reference">
+                <h3>Reference:</h3>
+            </div>
+            <div class="footer-reference">
+                <h3>UI/UX Design:</h3>
+                <a href="https://www.figma.com/design/iy8hDDI6qgNpbVDqlhprhg/Data-Visualization?node-id=0-1&t=o2JHV471DbMfGcxA-1" target="_blank" rel="noopener noreferrer">
+                    COS30045 Data Visualisation, Web Design From Scratch by Alwin Jing Xue TAY. 104399430
+                </a>
+            </div>
+        <div class="vl"></div>
+            <div class="footer-copyright">
+                <p class="footer-text">©2025 Alwin Jing Xue TAY. 104399430. All Rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
