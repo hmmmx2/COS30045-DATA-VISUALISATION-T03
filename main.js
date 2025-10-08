@@ -13,7 +13,7 @@ function navigateTo(page) {
 
 function setActivePage() {
     var currentPage = window.location.pathname.split('/').pop();
-    if (!currentPage) currentPage = 'index.html';
+    if (!currentPage) currentPage = 'television.html';
     
     var navLinks = document.querySelectorAll('.nav-link');
     
