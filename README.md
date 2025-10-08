@@ -93,11 +93,3 @@ Our approach to data ethics is guided by principles of fairness, transparency, a
 - Accessibility features implemented to serve users with diverse needs
 - Protection of user privacy as a fundamental right
 
-
-## Installation & Usage
-
-[Add instructions for running your project]
-
-1. Clone this repository
-2. Open `index.html` in a web browser
-3. Navigate through the site using the provided links
